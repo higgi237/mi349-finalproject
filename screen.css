@@ -2,3 +2,8 @@
 a.active {
     font-weight: bold;
 }
+
+body {
+    padding: 50px;
+    margin-top: 20px;
+}
