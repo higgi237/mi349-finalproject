@@ -4,17 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Page</title>
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>About Page</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-      </ul>
-    </nav>
+    <h1>BeachfrontBites</h1>
+    <nav class="sticky">
+      <h3><a href="index.html">Home</a></h3>
+  </nav>
+  <section>
+    <h2>Name</h2>
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-sm"></span>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+    </div>    
+    <h2>Phone Number</h2>
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-sm"></span>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+    </div>    
+    <h2>Type</h2>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Select</option>
+      <option value="1">Pickup</option>
+      <option value="2">Delivery</option>
+    </select>
+    <h2>Time</h2>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Select</option>
+      <option value="1">ASAP</option>
+      <option value="2">45 minutes from order placement</option>
+      <option value="3">1 hour from order placement</option>
+      <option value="3">1.5 hours from order placement</option>
+      <option value="4">2 hours from order placement</option>
+      <option value="3">2.5 hours from order placement</option>
+      <option value="5">3 hours from order placement</option>
+      <option value="3">3.5 hours from order placement</option>
+      <option value="6">4 hours from order placement</option>
+    </select>
+    <h2>Location (delivery only)</h2>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Select</option>
+      <option value="1">Delivery Location 1 (pink flag next to lifegaurd stand)</option>
+      <option value="2">Delivery Location 2 (pink flag at bottom of boardwalk)</option>
+      <option value="3">Delivery Location 3 (pink flag closest to ocean) </option>
+    </select>
+    <a href="page2.html" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Order Now</a>
+  </section>
     <script src="index.js"></script>
   </body>
 </html>
