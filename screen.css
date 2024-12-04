@@ -4,8 +4,8 @@ a.active {
 }
 
 body {
-    padding: 50px;
-    margin-top: 20px;
+    padding: 55px;
+    margin-top: 50px;
     margin-bottom: 3em;
     background: #EEF7FB;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -19,4 +19,30 @@ html {
 .ordernow {
     margin-left: 600px;
     margin-top: 30px;
+}
+
+.placeorder {
+    margin-left: 600px;
+    margin-top: 30px; 
+}
+
+.card {
+    background-color: #EEF7FB;
+}
+
+button {
+    background-color: #011A28;
+}
+
+.fixed-top {
+        position: fixed;
+        top: 0px;
+        display: flex;
+        justify-content:space-between;
+        background: #FFEEC2;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        height: 10%;
+        border-bottom: 3px solid #FFBC70;
 }
