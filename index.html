@@ -9,30 +9,29 @@
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>BeachfrontBites</h1>
     <nav class="navbar fixed-top bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" >Beachfront Bites</a> <a href="index.html">Home</a> 
       </div>
     </nav>
   <section>
-    <h2>Name</h2>
+    <h4>Name</h4>
     <div class="input-group input-group-sm mb-3">
       <span class="input-group-text" id="inputGroup-sizing-sm"></span>
       <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
     </div>    
-    <h2>Phone Number</h2>
+    <h4>Phone Number</h4>
     <div class="input-group input-group-sm mb-3">
       <span class="input-group-text" id="inputGroup-sizing-sm"></span>
       <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
     </div>    
-    <h2>Type</h2>
+    <h4>Type</h4>
     <select class="form-select" aria-label="Default select example">
       <option selected>Select</option>
       <option value="1">Pickup</option>
       <option value="2">Delivery</option>
     </select>
-    <h2>Time</h2>
+    <h4>Time</h4>
     <select class="form-select" aria-label="Default select example">
       <option selected>Select</option>
       <option value="1">ASAP</option>
@@ -45,14 +44,17 @@
       <option value="3">3.5 hours from order placement</option>
       <option value="6">4 hours from order placement</option>
     </select>
-    <h2>Location (delivery only)</h2>
+    <h4>Location (delivery only)</h4>
     <select class="form-select" aria-label="Default select example">
       <option selected>Select</option>
       <option value="1">Delivery Location 1 (pink flag next to lifegaurd stand)</option>
       <option value="2">Delivery Location 2 (pink flag at bottom of boardwalk)</option>
       <option value="3">Delivery Location 3 (pink flag closest to ocean) </option>
     </select>
-    <a href="page2.html" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Order Now</a>
+      <span class="placeholder col-12 bg-light"></span>
+    <div class="ordernow">
+      <a href="page2.html" class="btn btn-dark" tabindex="-1" role="button" aria-disabled="true">Order Now</a>
+    </div>
   </section>
     <script src="index.js"></script>
   </body>
