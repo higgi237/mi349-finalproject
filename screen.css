@@ -46,3 +46,18 @@ button {
         height: 10%;
         border-bottom: 3px solid #FFBC70;
 }
+
+@media screen and (max-width: 616px) {
+    .customerinfo {
+      display: block;
+      padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .ordernow, .placeorder {
+        margin-left: 0;
+        margin-top: 15px;
+        text-align: center;
+    }
+}
